@@ -63,6 +63,7 @@ with open('chars.json', 'w') as file:
     # json.dump([ob.__dict__ for ob in chars], file, indent = 2)
     json.dump(chars, file, indent = 2)
 
+
 # # 2_) READING JSON from a FILE
 # with open('example.json', 'r') as myfile:
 #     data = json.load(myfile)
